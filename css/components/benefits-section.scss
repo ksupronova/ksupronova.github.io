@@ -1,6 +1,8 @@
 .benefits-section {
   position: relative;
   background: url(../../img/decor/side-leaf.png) left top 23% no-repeat;
+  align-items: center;
+  
 
   &::before {
     content: url(../../img/decor/bars.png);

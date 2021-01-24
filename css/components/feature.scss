@@ -1,13 +1,14 @@
 .feature {
   display: flex;
-  max-width: 114px;
 }
 
 .feature__icon {
-  width: 100px;
-  margin-right: 12px;
+  width: 45px;
+  margin-right: 2px;
 }
 
 .feature__text {
   font-size: 16px;
+  max-width: 85px;
+  padding: 0 12%;
 }
