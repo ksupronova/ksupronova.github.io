@@ -16,13 +16,13 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: $containerwidth + 20px;
   min-height: 100%;
   overflow: hidden;
 }
 
 .container {
-  width: $containerwidth;
+  width: 95%;
+  max-width: $containerwidth;
   margin: 0 auto;
   position: relative;
 }
