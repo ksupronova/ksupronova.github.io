@@ -7,19 +7,19 @@
   &::before {
     content: url(../../img/decor/strawberry.png);
     position: absolute;
-    right: 148px;
-    top: -22px;
+    right: rem(148px);
+    top: rem(-22px);
   }
 
   &::after {
     content: url(../../img/decor/berries.png);
     left: 0;
-    bottom: -32px;
+    bottom: rem(-32px);
     position: absolute;
 
   }
 }
 
 .reviews-section__title {
-  margin-bottom: 30px;
+  margin-bottom: rem(30px);
 }

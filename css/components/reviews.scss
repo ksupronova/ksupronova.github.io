@@ -6,14 +6,14 @@
   &::before {
     content: "";
     display: block;
-    width: 83px;
-    height: 83px;
+    width: rem(83px);
+    height: rem(83px);
     background: #ffffff;
     border-radius: 50%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -61px;
+    top: rem(-61px);
     z-index: 1;
   }
 }
@@ -22,21 +22,21 @@
 .reviews__display-inner {
   background: #F8FAF9;
   display: flex;
-  margin-bottom: 15px;
-  padding: 42px 42px;
+  margin-bottom: rem(15px);
+  padding: rem(42px) rem(42px);
   position: relative;
 
   &::after {
     content: url(../../img/decor/leaves-berries.png);
     position: absolute;
     right: 0;
-    top: 22px;
+    top: rem(22px);
   }
 }
 
 .reviews__avatar {
-  width: 254px;
-  height: 264px;
+  width: rem(254px);
+  height: rem(264px);
 }
 
 .reviews__avatar-img {
@@ -47,18 +47,18 @@
 
 .reviews__content {
   flex: 1;
-  margin-left: 38px;
+  margin-left: rem(38px);
 }
 
 .reviews__title {
   font-weight: bold;
-  font-size: 27px;
+  font-size: rem(27px);
   color: #292929;
-  margin-bottom: 12px;
+  margin-bottom: rem(12px);
 }
 
 .reviews__text {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
   padding-right: 22%;
 }
 

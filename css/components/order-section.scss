@@ -7,14 +7,14 @@
   &::before{
     content: url(../../img/decor/blackberry.png);
     right: 0;
-    top: -170px;
+    top: rem(-170px);
     position: absolute;
   }
 
   &::after {
     content: url(../../img/decor/leaf4.png);
     right: 0;
-    bottom: 58px;
+    bottom: rem(58px);
     position: absolute;
   }
 }

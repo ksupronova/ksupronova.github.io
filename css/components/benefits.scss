@@ -9,8 +9,8 @@
 
   &::before {
     position: absolute;
-    top: 54px;
-    right: -59px;
+    top: rem(54px);
+    right: rem(-59px);
     transform: translateX(-50%);
     content: url(../../img/decor/separator.png);
   }
